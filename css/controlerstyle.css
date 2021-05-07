@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.controlbutton{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    border: 7px outset rgb(177, 177, 177);
+    height: 55px;
+    width: 300px;
+    border-radius: 100px;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+
+}
+
+.controlbutton button{
+    
+    border-radius: 100px;
+    height: 50px ;
+    width : 50px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.6;
+
+}
+
+.controlbutton button:hover{
+    opacity: 1;
+}
+
+
+
+#playbutton{
+
+    margin: auto;
+    background-image: url(../resources/playbutton.png);
+    background-size: 100%;
+    background-color: rgb(192, 192, 192);
+}
+#pausebutton{
+    background-image: url(../resources/pausebutton.png);
+    background-size: 100%;
+    background-color: rgb(192, 192, 192);
+    margin: auto; 
+}
+#restartbutton{
+    background-image: url(../resources/restartbutton.png);
+    background-size: 100%;
+    margin: auto; 
+}
+
+
